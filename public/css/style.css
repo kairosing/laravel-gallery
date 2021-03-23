@@ -2,12 +2,13 @@ a.my-button {
     width: 100%;
     margin: 5px 0;
     display: block !important;
+
 }
 div.gallery-item {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
-.gallery-image {
+.gallery-item {
     display: block;
     margin: 0 auto;
 }

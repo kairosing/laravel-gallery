@@ -21,14 +21,15 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/create', function () {
-    return view('create');
+Route::get('/create', function (){
+   return view('create');
 });
 
-Route::get('/show', function () {
-    return view('show');
+Route::get('/show', function (){
+   return view('show');
 });
 
-Route::get('/edit', function () {
-    return view('edit');
+Route::get('/edit', function (){
+   return view('edit');
 });
+
