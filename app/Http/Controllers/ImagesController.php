@@ -10,6 +10,11 @@ use Illuminate\Http\Request;
 class ImagesController extends Controller
 {
 
+    /**
+     * @var ImageServices
+     */
+    private $images;
+
     public function __construct(ImageServices $imageServices)
     {
         $this->images = $imageServices;
